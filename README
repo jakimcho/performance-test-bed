@@ -1,0 +1,26 @@
+## Performance Test Bed ##
+
+This test bed is designe specialy to perform load and performance testing.
+The initial aim was to implement http load balancing with 2 http servers and one mysql
+
+### Useful Information ###
+
+https://www.youtube.com/watch?v=SpL_hJNUNEI
+https://www.vagrantup.com/docs/multi-machine/
+
+#### Mac Specific ####
+
+http://sourabhbajaj.com/mac-setup/Vagrant/README.html
+
+### Used tools ###
+
+1. Vagrant
+2. NginX
+3. MySQL
+4. NodeJS
+
+
+### Setting Up ### 
+
+Used vagrant images: geerlingguy/ubuntu1404
+on the first instance of this machine install nginex. It will execute the role of our loadbalancer
